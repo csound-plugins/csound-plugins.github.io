@@ -1,0 +1,43 @@
+site_name: Csound Plugins
+site_description: >-
+  Plugins for the Csound programming language, including the else, klib,
+  pathtools and other opcode libraries.
+site_url: https://csound-plugins.github.io/
+repo_url: https://github.com/csound-plugins/csound-plugins
+repo_name: csound-plugins/csound-plugins
+edit_uri: ""
+
+copyright: >-
+  Copyright &copy; csound-plugins contributors &mdash; the plugins are
+  released under the GNU Lesser General Public License.
+
+theme:
+  name: material
+  language: en
+  palette:
+    scheme: default
+    primary: teal
+    accent: teal
+  features:
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+
+extra_css:
+  - css/material-extra.css
+
+use_directory_urls: false
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.highlight:
+      use_pygments: true
+      pygments_lang_class: true
+  - pymdownx.superfences
+
+plugins:
+  - search
