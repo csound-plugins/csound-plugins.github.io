@@ -1,8 +1,7 @@
 site_name: Csound Plugins
 site_description: >-
   Plugins and tools for the Csound programming language
-site_url: https://csound-plugins.github.io/
-edit_uri: ""
+# site_url: https://csound-plugins.github.io/
 
 copyright: >-
   Copyright &copy; csound-plugins contributors &mdash; the plugins are
