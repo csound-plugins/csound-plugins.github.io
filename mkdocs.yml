@@ -1,10 +1,7 @@
 site_name: Csound Plugins
 site_description: >-
-  Plugins for the Csound programming language, including the else, klib,
-  pathtools and other opcode libraries.
+  Plugins and tools for the Csound programming language
 site_url: https://csound-plugins.github.io/
-repo_url: https://github.com/csound-plugins/csound-plugins
-repo_name: csound-plugins/csound-plugins
 edit_uri: ""
 
 copyright: >-
