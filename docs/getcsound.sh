@@ -654,10 +654,10 @@ install_linux() {
             ARCH_SUFFIX="x86_64"
             ;;
         aarch64|arm64)
-            ARCH_SUFFIX="aarch64"
+            ARCH_SUFFIX="arm64"
             ;;
         *)
-            echo "Unsupported architecture: $ARCH. Supported architectures: x86_64, aarch64."
+            echo "Unsupported architecture: $ARCH. Supported architectures: x86_64, arm64 (aarch64)"
             exit 1
             ;;
     esac
